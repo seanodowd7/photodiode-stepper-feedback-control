@@ -1,5 +1,6 @@
 # photodiode-stepper-feedback-control
 Built a photodiode feedback control system that received input from a laser and moved a stepper accordingly. This is a smaller scale version for the combustion analysis experiment I am working on as an undergraduate researcher at UNC Charlotte. The program moves the stepper if the derivative of I/t is above a certain threshold. I tested the program by using paper to fully block the photodiode, partially block the photodiode, and not blocking it all. 
+
 Hardware used:
 
 Arduino UNO R4 WiFi,
